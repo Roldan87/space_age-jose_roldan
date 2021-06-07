@@ -1,6 +1,5 @@
 from typing import AsyncGenerator
 
-
 class SpaceAge:
 
     def __init__(self, user_age):
@@ -39,3 +38,4 @@ class SpaceAge:
     def on_neptune(self):
         age_years = self.earth_sec / 164.79132
         return round(age_years, 2)
+
