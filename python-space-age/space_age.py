@@ -1,6 +1,4 @@
 from typing import AsyncGenerator
-import unittest
-import math
 
 
 class SpaceAge:
@@ -41,8 +39,3 @@ class SpaceAge:
     def on_neptune(self):
         age_years = self.earth_sec / 164.79132
         return round(age_years, 2)
-
-
-
-age = SpaceAge(1e9)
-print(age.seconds)
