@@ -42,4 +42,4 @@ class SpaceAge:
         age_years = self.earth_sec / 164.79132
         return round(age_years, 2)
 
-# COACHES' NOTE: Be careful of abbreviations, or even worse, wrong variable naming (seconds and years mean somthing very different).
+# COACHES' NOTE: Be careful of abbreviations, or even worse, wrong variable naming (seconds and years mean something very different).
